@@ -1,0 +1,281 @@
+*{
+  box-sizing: border-box;
+}
+img{
+   width: 100%;
+   display: block;
+}
+body{
+}
+#columns-container{
+  margin: 0 auto;
+  width: 1000px;
+}
+nav{
+  background-color: #F86115;
+  height: 60px;
+}
+nav img{
+  width: 80px;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+.right-nav{
+  padding-left: 700px;
+  position: absolute;
+  transform: translateY(-38px);
+}
+.right-nav h6{
+  display: inline-block;
+  font-size: 11px;
+  font-weight: lighter;
+  font-family: "Helvetica";
+  color: white;
+  padding-left: 30px;
+}
+.right-nav button{
+  border-style: none;
+  color: white;
+  background-color: #14C3B2;
+  font-size: 11px;
+  padding: 8px;
+}
+.right-nav button:hover{
+  border: 1px solid #14C3B2;
+  background-color: #F86115;
+  color: #14C3B2;
+}
+.main-picture{
+  background-image: url("../images/hero-splash-roommates-fun.jpg");
+  padding-top: 300px;
+  padding-bottom: 200px;
+  background-size: cover;
+}
+.description {
+  color: white;
+  background-color: rgba(0,0,0,.5);
+  text-align: center;
+  font-family: "Helvetica";
+}
+.description h2{
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 0;
+}
+.description h5{
+  font-size: 12px;
+  font-weight: lighter;
+  margin-top: 10px;
+}
+.wrapper input{
+  height: 40px;
+  width: 170px;
+  padding-top: 3px;
+}
+.wrapper button{
+  margin-left: -5px;
+  color: white;
+  background-color: #14C3B2;
+  border-style: none;
+  height: 40px;
+  width: 90px;
+  font-size: 14px;
+  font-weight: lighter;
+}
+.four-columns img{
+  display: block;
+  width: 200px;
+}
+.four-columns h2{
+  background-color: #323232;
+  color: white;
+  margin-top: 0;
+  font-family: "Helvetica";
+  font-weight: lighter;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  font-size: 18px;
+}
+.four-columns div{
+  width: 200px;
+  display: inline-block;
+  margin-left: 35px;
+}
+.four-columns{
+  margin-top: 12px;
+}
+.more-cities{
+  color: #E75200;
+  font-family: "Helvetica";
+  font-weight: lighter;
+  border: 1px solid #E75200;
+  width: 125px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  padding-left: 20px;
+  margin-top: 8px;
+}
+.more-cities:hover{
+  color: white;
+  background-color: #E75200;
+}
+.listings div{
+  display: inline-block;
+}
+.listings{
+  background-color: #C4C4C4;
+  font-family: "Helvetica";
+  font-weight: lighter;
+  margin-top: 20px;
+  padding-bottom: 40px;
+}
+.room-img{
+  width: 40%;
+  padding-left: 150px;
+  padding-top: 50px;
+}
+.room-img img{
+  width: 250px;
+  margin-bottom: 0;
+  position: relative;
+}
+.room-img .apartment-info{
+  background-color: white;
+  width: 250px;
+  margin-top: 0;
+  border: 2px solid #868686;
+  padding-left: 15px;
+  line-height: .5;
+}
+.room-img .apartment-info h4{
+  margin-bottom: 0px;
+}
+.room-img .apartment-info p{
+  font-size: 14px;
+  font-weight: bolder;
+}
+.heart-cont i {
+   font-size: 14px;
+   color: white;
+   position: absolute;
+   transform: translateX(650%) translateY(-850%);
+   border-radius: 50%;
+   background-color: rgba(255, 0, 0, 0.75);
+   padding: 8px;
+}
+.pricing{
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 15px 10px;
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  transform: translateX(-27%) translateY(-370%);
+}
+.listing-desc{
+  vertical-align: top;
+  padding-top: 60px;
+  padding-left: 200px;
+  line-height: 1.5;
+  margin-bottom: 0;
+  width: 50%;
+}
+.listing-desc span{
+  font-size: 20px;
+  font-weight: 500;
+}
+.listing-desc ul{
+  list-style-type: circle;
+  margin-left: 0;
+  padding-left: 20px;
+}
+.footer{
+  background-color: #3C3C3C;
+  margin-top: 0;
+  font-weight: lighter;
+  color: white;
+  font-family: "Helvetica";
+  font-weight: lighter;
+  padding-bottom: 20px;
+}
+.footer div{
+  display: inline-block;
+  margin-right: 200px;
+  padding-left: 15px;
+}
+.footer ul{
+  padding-left:0px;
+  list-style-type: none;
+  font-size: 12px;
+  line-height: 1.75;
+}
+.footer li{
+  color: #ACACAC;
+}
+.footer h4{
+  font-weight: lighter;
+}
+.live-chat{
+  position: fixed;
+  bottom: 8px;
+  left: 59px;
+  border: 3px solid #14C3B2;
+  background-color: #BDF1ED;
+  width: 200px;
+}
+.live-chat i{
+  color: white;
+  background-color: #14C3B2;
+  padding: 5px 10px;
+  font-size: 24px;
+  position: absolute;
+  transform: translateX(163px) translateY(-37px);;
+}
+.questions{
+  font-family: "Helvetica";
+  padding-left: 5px;
+  font-size: 14px;
+}
+.live-chat .text-box{
+  background-color: white;
+  height: 60px;
+}
+.img-tiffany{
+  background-color: white;
+  width: 20%;
+  display: inline-block;
+  padding-left: 10px;
+  padding-top: 6px;
+}
+.img-tiffany img{
+  width: 50px;
+  border-radius: 50%;
+}
+.text{
+  width: 70%;
+  display: inline-block;
+  padding-left: 30px;
+  vertical-align: top;
+  padding-top: 20px;
+}
+.text p{
+  background-color: white;
+  font-family: "Helvetica";
+  font-size: 10px;
+}
+.orange-text{
+  color: orange;
+}
+.social-media-icons{
+  margin-right: 5px;
+  padding-left: 730px;
+  padding-top: 10px;
+}
+.social-media-icons aside{
+  display: inline-block;
+  padding-right: 20px;
+}
+.icon img{
+  width: 40px;
+}
